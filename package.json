@@ -3,6 +3,7 @@
   "displayName": "atom-string-converter",
   "description": "Converts atoms to strings and vice versa",
   "version": "0.0.1",
+  "publisher": "elixory",
   "engines": {
     "vscode": "^1.77.0"
   },
@@ -14,10 +15,6 @@
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
-      {
-        "command": "atom-string-converter.helloWorld",
-        "title": "Hello World"
-      },
       {
         "command": "atom-string-converter.atomToString",
         "title": "Convert Atom to String"
